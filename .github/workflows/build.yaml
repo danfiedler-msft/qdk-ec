@@ -361,6 +361,7 @@ jobs:
         uses: dtolnay/rust-toolchain@7e38f4b43b4db5c8dd498af069a4f6196df1d067 # v1
         with:
           components: clippy, rustfmt, llvm-tools-preview
+          toolchain: stable
 
       - name: Cache cargo registry and index
         uses: actions/cache@55cc8345863c7cc4c66a329aec7e433d2d1c52a9 # v6.1.0
